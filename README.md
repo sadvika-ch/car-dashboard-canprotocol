@@ -64,6 +64,15 @@ This node acts as the **dashboard controller**:
 | RPM         | 0x501  |
 | Time        | 0x601  |
 
+## Sample UART Output
+
+- The dashboard node displays received CAN messages over UART using Tera Term.
+
+Example output:
+
+Time       Speed   RPM   Gear   Temp   Indicator
+12:45:33   45      67     G2     30    NoI
+
 ## Key Features
 
 * Interrupt-driven CAN communication
